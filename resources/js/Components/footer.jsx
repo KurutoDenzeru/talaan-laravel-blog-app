@@ -1,5 +1,3 @@
-// import GDSCSVGLOGO from '../Components/logo.jsx';
-
 function HeroFooter() {
     return (
 
@@ -8,7 +6,7 @@ function HeroFooter() {
                 <div class="sm:flex sm:items-center sm:justify-between">
                     <a href="https://gdsc-uec.vercel.app/" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
 
-                        {/* <img src={GDSCSVGLOGO} alt="Example" /> */}
+                        <img src="/public/images/" alt="Example" />
                         <img src="" class="h-8" alt="GDSC Logo" />
 
                         <span class="self-center text-2xl font-semibold whitespace-nowrap">GDSC UE Caloocan</span>

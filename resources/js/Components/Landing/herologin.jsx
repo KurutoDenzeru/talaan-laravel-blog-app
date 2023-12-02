@@ -6,6 +6,9 @@ function HeroLanding() {
         <div class="max-w-screen-xl mx-auto px-14 sm:px-12 grid grid-cols-1 lg:grid-cols-2 items-center gap-14">
             
         <div class="mt-4 md:mt-0">
+
+          <img src="../../public/images/gdsclogo.svg" alt="GDSC-Logo"/>
+
           <h2
             class="text-start lg:text-start font-bold text-3xl sm:text-4xl leading-none mb-6"
           >
@@ -38,7 +41,7 @@ function HeroLanding() {
               </div>
 
               <div class="mb-5">
-                  <label for="password" class="block mb-2 text-sm font-medium text-gray-900">Password</label>
+                  <label for="password" class="block mb-2 text-sm font-medium text-gray-900">Password:</label>
                   <input type="password" id="password" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" required></input>                  
               </div>
 
